@@ -76,6 +76,7 @@
     margin-bottom: 26px;
 
 }
+
 /* ---------------------------------------------------------------- */
 #card-box {
     width: 1056px;
@@ -140,7 +141,7 @@
     margin-top: 51px;
 }
 
-.card-container p{
+.card-container p {
     text-align: center;
 }
 
@@ -188,8 +189,85 @@
     margin-top: 51px;
 }
 
-.card-container-2 p{
+.card-container-2 p {
     text-align: center;
 }
 
 /* ------------------------------------------------------------ */
+
+#about-us {
+    height: 494px;
+    display: flex;
+}
+
+#about-us img {
+    width: 768px;
+}
+
+.details-container {
+    text-align: center;
+}
+
+.details-container h1 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 109px;
+}
+
+.details-container p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    margin-top: 19px;
+}
+
+.follow-us {
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    padding: 24px 8px 24px 8px;
+
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 38px;
+}
+
+#about-us .icons {
+    margin-top: 26px;
+    display: flex;
+    gap: 26px;
+    justify-content: center;
+    font-size: 32px;
+}
+
+#facebook {
+    color: linear-gradient(180.00deg, rgb(0, 178, 255) -0.911%, rgb(0, 106, 255) 104.264%);
+}
+
+#linkedin {
+    color: linear-gradient(180.00deg, rgb(0, 178, 255) -0.911%, rgb(0, 106, 255) 104.264%);
+}
+
+#instagram {
+    color: rgb(247, 103, 0);
+}
+
+#pinterest {
+    color: rgb(225, 49, 56);
+}
