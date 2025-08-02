@@ -279,3 +279,95 @@
 #pinterest {
     color: rgb(225, 49, 56);
 }
+
+
+/* ------------------------------------------------------------ */
+
+#footer {        
+    position: relative;
+    margin-top: 173px;
+    height: 494px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("../assets/social-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-container {
+    position: a;
+    width: 664px;
+    text-align: center;
+    margin-left: 62px;
+}
+
+.footer-container h1 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.footer-container p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    margin-top: 19px;
+}
+
+#footer .follow-us {
+    position: absolute;
+    right: 50px;
+
+    width: 1056px;
+    justify-content: center;    
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    padding: 24px 8px 24px 8px;
+
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 38px;
+    /* padding-left: 55px; */
+}
+
+#footer .icons {
+    margin-top: 142px;
+    display: flex;
+    gap: 26px;
+    justify-content: center;
+    font-size: 32px;
+}
+
+#facebook {
+    color: linear-gradient(180.00deg, rgb(0, 178, 255) -0.911%, rgb(0, 106, 255) 104.264%);
+}
+
+#linkedin {
+    color: linear-gradient(180.00deg, rgb(0, 178, 255) -0.911%, rgb(0, 106, 255) 104.264%);
+}
+
+#instagram {
+    color: rgb(247, 103, 0);
+}
+
+#pinterest {
+    color: rgb(225, 49, 56);
+}
