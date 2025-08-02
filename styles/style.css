@@ -198,6 +198,7 @@
 #about-us {
     height: 494px;
     display: flex;
+    justify-content: center;
 }
 
 #about-us img {
